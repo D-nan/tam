@@ -1,0 +1,398 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+}
+.iconify{
+color:white;
+width: 24px; height: 24px;
+}
+a {
+  color: #149ddd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#navbar{
+  color:white;
+  font-size: 20px;
+  font-weight: 400;
+  word-spacing: normal;
+  line-height: 50px;
+  width: 80px; height: 300px;
+
+}
+ul.pages{
+  list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  background: #040b14;
+  overflow-y: auto;
+}
+
+#header .profile img {
+  margin: 15px auto;
+  display: block;
+  width: 120px;
+  border: 8px solid #2c2f3f;
+}
+
+#header .profile h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#header .profile h1 a, #header .profile h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+h1{
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret 0.6s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+#main {
+  margin-left: 300px;
+}
+
+#about {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/web1.jpg") top center;
+  background-size: cover;
+}
+
+#about .about-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+
+#about h1 {
+  margin: 0 0 10px 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+#about h2 {
+  margin-left: 500px;
+  margin-bottom: 100px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#about p {
+  margin-left: 500px;
+  margin-right: 100px;
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#about p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/wen.jpg") top center;
+  background-size: cover;
+}
+
+#hero .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#hero p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+#about {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/web1.jpg") top center;
+  background-size: cover;
+}
+
+#about .about-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+
+#about h1 {
+  margin: 0 0 10px 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+#about h2 {
+  margin-left: 500px;
+  margin-bottom: 100px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#about p {
+  margin-left: 500px;
+  margin-right: 100px;
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#about p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+
+* {
+  box-sizing: border-box
+}
+
+  
+
+#res{
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+div#resume {
+  min-width: 310px;
+  font: 16px Helvetica, Avernir, sans-serif;
+  line-height: 24px;
+  color: #000
+}
+
+
+
+div#resume h2 {
+  font-size: 30px;
+  margin: 0 0 6px 0;
+  position: relative;
+  color:#149ddd;
+}
+div#resume h3{
+  font-size: 18 px;
+  line-height: 10 px;
+  color:#149ddd
+}
+div#resume h2 span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-style: italic;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  color: #999;
+  font-weight: normal
+}
+
+div#resume p {
+  margin: 0 0 16px 0
+}
+
+div#resume a {
+  color: #999;
+  text-decoration: none;
+  border-bottom: 1px dotted #999
+}
+
+div#resume a:hover {
+  border-bottom-style: solid;
+  color: #000
+}
+
+div#resume p.objective {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: #666
+}
+
+div#resume dt {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: right;
+  padding: 0 26px 0 0;
+  width: 150px;
+  color: #149ddd;
+  border-right: 1px solid #999
+}
+
+div#resume dl {
+  display: table-row
+}
+
+div#resume dl dt,
+div#resume dl dd {
+  display: table-cell;
+  padding-bottom: 20px
+}
+
+div#resume dl dd {
+  width: 500px;
+  padding-left: 26px
+}
+
+div#resume img {
+  float: right;
+  padding: 10px;
+  background: #fff;
+  margin: 0 30px;
+  transform: rotate(-4deg);
+  box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+  width: 30%;
+  max-width: 220px
+}
+#contact {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/re.jpg") center transparent;
+  background-size: cover;
+}
+
+#contact .contact-container {
+  margin-top: 10px;
+  position: relative;
+  z-index: 2;
+  min-width: 1000px;
+}
+
+#contact h2 {
+  margin-left: 100px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  color:#149ddd;
+}
+#contact .contact-field {
+  align-items: flex-start;
+  margin: 20px;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding:2px;
+  border-color: #149ddd;
+  
+}
+input, select, textarea{
+  color: #ffffff;
+}
+
+#contact form{
+  border: 100px;
+  border-color: #149ddd;
+}
+#contact .submit-btn{
+  align-items: flex-start;
+  margin: 20px;
+  background-color:#149ddd;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding:2px;
+  border-color: #149ddd;
+
+}
+#tab {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/new.jpg") top center;
+  background-size: cover;
+}
+
+#tab .contact-container {
+ 
+  position: relative;
+  z-index: 2;
+  min-width: 1000px;
+}
+
+#tab h2 {
+  margin-left: 100px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  color:#c7cea2;
+}
+
+
+th,td{color: #c7cea2;
+  border: 1px solid white;}
+
+
+
